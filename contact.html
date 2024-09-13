@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio Sederhana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="inner-wrapper">
+                <div class="logo">
+                    <a href="#"><img src="images/Contoh Logo Website.png" width="285" height="92"></a>
+                </div>
+                <ul class="menubar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="project.html">Projek</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section>
+            <h2 class="judul-kontak">Hubungi Kami</h2>
+            <form id="contactForm" action="submit_contact.php" method="POST">
+                <label for="name">Nama :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Pesan :</label>
+                <input type="text" id="message" name="message" required>
+                
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <div class="footer">
+        <div class="footer-atas">
+            <div class="kiri">
+                <img src="images/Contoh Logo Website.png" width="291" height="83">
+            </div>
+            <div class="kanan">
+                <ul class="u1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="project.html">Projek</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <ul class="u2">
+                    <li><a href="contact.html">Kontak Kami</a></li>
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                </ul>
+                <ul class="u3">
+                    <li><a href="#"><img src="images/logo-facebook 1.png">Facebook</a></li>
+                    <li><a href="#"><img src="images/logo-twitter 1.png">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/allaboutmyzrn/"><img src="images/logo-instagram 1.png">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/@muh.yasserziyauddinramadha4106"><img src="images/logo-youtube 1.png">Youtube</a></li>
+                    <li><a href="#"><img src="images/logo-tiktok 1.png">Tiktok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">© 2024 Portofolio Web Development</div>
+    </div>
+</div>
+</body>
+</html>
